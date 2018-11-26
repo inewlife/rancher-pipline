@@ -1,6 +1,6 @@
 {{- $jenkinsMasterImage:="jenkins/jenkins:2.60.2-alpine"}}
-{{- $jenkinsBootImage:="rancher/jenkins-boot:v0.1.1"}}
-{{- $jenkinsSlaveImage:="rancher/pipeline-jenkins-slave:v0.1.0"}}
+{{- $jenkinsBootImage:="registry.gz.cvte.cn/ai/rancher/pipeline-jenkins-boot:latest"}}
+{{- $jenkinsSlaveImage:="registry.gz.cvte.cn/ai/rancher/pipeline-jenkins-slave:latest"}}
 {{- $pipelineServerImage:="registry.gz.cvte.cn/ai/rancher/pipeline:latest"}}
 {{- $pipelineUIImage:="registry.gz.cvte.cn/ai/rancher/pipeline-ui:latest"}}
 
